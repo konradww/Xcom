@@ -1,0 +1,6 @@
+{
+    "server": "localhost",
+    "database": "XCOM",
+    "username": "sa",
+    "password": "*******"
+}
