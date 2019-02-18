@@ -1,8 +1,9 @@
 create database XCOM
 
-USE XCOM
+
 Create table Product(
-    ProdcutId INT IDENTITY(1,1) NOT NULL,
+    ProductId INT IDENTITY(1,1) NOT NULL,
+    Data DATETIME DEFAULT GETDATE(),
     ProductName VARCHAR(200) NOT NULL,
     ProductKod_xkom INT NULL,
     ProductDiscount DECIMAL(10,2) NOT NULL,
